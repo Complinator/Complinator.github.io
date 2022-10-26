@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: #222222;
+    padding: 1.186% 7.7094%;
+    justify-content: space-between;
+    align-items:center;
+    width: 85%;
+    height: 5vh;
+}
+
+.tab2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 7.7094% 1.186%;
+    text-align: center;
+    width: 20%;
+    height: 9vh;
+    margin-top: 9.9vh;
+    justify-content: right;
+    right: -22.979985%;
+    transition: 0.5s;
+}
+
+.tab2 button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tab h2{
+    font-size: 27.2px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.pp{
+    background-image: url("Img/LeyDeGauss.png") ;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+
+.overlay{
+    background: rgba(23, 24, 25, 0.85);
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-family: 'Norwester', sans-serif;
+    font-size: 114px;
+    color: rgb(255, 88, 51);
+    display: block;
+    padding-top: 26.686%;
+    padding-left: 4.8925%;
+}
+
+.sup {
+    font-size: 34.2px;
+    color: rgb(114, 114, 114);
+    display: block;
+    padding-left: 4.8925%;
+}
+
+.lines {
+    background-image: url("Img/Lines.png");
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+
+.icon {
+    border: none;
+    background-color:#222222;
+    vertical-align: bottom;
+    transition: all 0.2s;
+    color:rgb(255, 255, 255);
+}
+
+.icon:hover {
+    color: rgb(255, 88, 51);
+    cursor: pointer;
+}
+
+.icon:active {
+    font-size: 13px;
+}
+
+
+.p1 {
+    background-image: url("Img/Pag.png") ;
+    width: 100%;
+    height: 200vh;
+    background-size: 100% 100%;
+    background-size:cover;
+    padding-top: 3.7%;
+}
+
+.title1 {
+    color: #1D1D1D;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 9%;
+    display: block;
+}
+
+.content1 {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    padding-left: 6%;
+    padding-top: 3.7%;
+    display:inline-block;
+    height: auto;
+}
+
+.t1 {
+    width: 30%;
+}
+
+.t4,
+.t2 {
+    width: 40%;
+    padding-top: 5.4%;
+    padding-left: 15%;
+}
+
+.t3 {
+    width: 32%;
+    padding-top: 17%;
+}
+
+.sli {
+    border-radius: 50%;
+    border: #1D1D1D;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+    display: inline-block;
+    border-style:groove;
+}
+
+.p2 {
+    background-image: url("Img/Pag3.png") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 3.7%;
+}
+
+.title2 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 8.5%;
+    display: block;
+}
+
+.content2 {
+    color: #ffffff;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.t5 {
+    padding-left: 16.5%;
+    padding-top: 3.7%;
+    width: 60%;
+    display: block;
+}
+
+.t6 {
+    padding-left: 5%;
+    padding-top: 4%;
+    display: block;
+}
+
+.t7 {
+    padding-left: 22%;
+    padding-top: 3%;
+    display: block;
+}
+
+.t8 {
+    padding-left: 22%;
+    padding-top: 4%;
+    display: block;
+}
