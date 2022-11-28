@@ -1,0 +1,253 @@
+*{
+    background-color: rgb(30, 29, 29);
+    color: whitesmoke;
+    margin: 0;
+}
+
+.Titles{
+    font-family: 'Norwester', sans-serif;
+    background-color: rgba(54, 52, 52, 0);
+    font-size: 4vw; /* 8.451vw */
+	color: rgb(255, 88, 51);
+	padding-bottom: 2%;
+}
+
+.Subtitles{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(54, 52, 52, 0);
+    font-size: 2.224vw;
+}
+
+.Text{
+    font-family: 'Abhaya Libre', sans-serif;
+    background-color: rgba(54, 52, 52, 0);
+    font-size: 1.483vw;
+	text-align: justify;
+}
+
+.Strong{
+	background-color: rgba(54, 52, 52, 0);
+    color: rgb(255, 88, 51);
+    
+}
+
+.Content{
+    background-color: rgb(54, 52, 52);
+    border-radius: 25px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+ul{
+	list-style-type:circle;
+}
+
+ul li{
+	background-color: rgba(54, 52, 52, 0);
+	color: rgb(255, 88, 51);
+	padding-top: 1.5%;
+}
+
+ul li::before{
+	content:icon;
+	font-weight: bold;
+}
+
+.swiper-button-next {
+    background-color: rgba(54, 52, 52, 0);
+}
+
+.swiper-button-prev {
+    background-color: rgba(54, 52, 52, 0);
+}
+
+.sw{
+    background-color: rgb(54, 52, 52);
+}
+
+.InSw{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Box{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.Card {
+    width: 48%;
+    background-color: rgb(54, 52, 52);
+    border-radius: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Fig {
+	display:inline-grid; 
+	border-radius:20px; 
+	width: 25%; 
+	align-items: center; 
+	padding:1%; 
+	text-align: center; 
+	vertical-align: top;
+}
+
+.GaussianSurface {
+	width: 100%; 
+	background-color: rgba(0, 0, 0, 0); 
+	grid-column: 2/5; 
+	grid-row: 2/5;
+	animation: rotate 20s linear infinite;
+}
+
+.slider {
+	-webkit-appearance:none;
+	border-radius: 20px;
+	height: 5px;
+	background-color: solid black;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	background: black;
+	border: 2px solid black;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+	background: black;
+}
+
+.poslines,
+.neglines {
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.buttons{
+	background-color: rgb(255, 88, 51);
+	color:whitesmoke;
+	border-radius: 20px;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 20px;
+	border-color: rgb(255, 88, 51);
+	border-style: dotted;
+	transition: 0.6s;
+}
+
+.buttons:hover{
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.slidecontainer{
+	background-color: whitesmoke; 
+	padding-top: 4%; 
+	padding-bottom: 5%; 
+	border-radius: 25px; 
+	box-shadow: 0px 15px 15px rgb(54, 52, 52);
+}
+
+@keyframes rotate {
+	to{ transform: rotate(360deg);}
+}
+
+@keyframes PMove {
+	0%   {padding-top: 0;}
+	50%  {padding-top: 20%;}
+	100% {padding-top: 0;}
+}
+
+/* not mine uwu */
+
+.Img{
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+  
+.Img:hover{
+    opacity: 0.7;
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+  
+  
+.modal-content{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+  
+#caption{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+    background-color: rgba(0,0,0,0);
+}
+
+.modal-content, #caption{  
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom{
+	from {-webkit-transform:scale(0)} 
+	to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom{
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+}
+
+.close{
+    background-color: rgba(0,0,0,0);
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
