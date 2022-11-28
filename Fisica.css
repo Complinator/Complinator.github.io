@@ -7,7 +7,9 @@
 .Titles{
     font-family: 'Norwester', sans-serif;
     background-color: rgba(54, 52, 52, 0);
-    font-size: 8.451vw;
+    font-size: 5.5vw;
+    color: rgb(255, 88, 51);
+    padding-bottom: 2%;
 }
 
 .Subtitles{
