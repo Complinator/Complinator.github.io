@@ -109,15 +109,16 @@ ul li::before{
 .slider {
 	-webkit-appearance:none;
 	border-radius: 20px;
-	height: 5px;
+	height: 0.371vw;
+    width: 9.563vw;
 	background-color: solid black;
 }
 
 .slider::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 15px;
-	height: 15px;
+	width: 1.112vw;
+    height:1.112vw;
 	background: black;
 	border: 2px solid black;
 	border-radius: 50%;
